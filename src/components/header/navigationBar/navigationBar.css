@@ -1,0 +1,33 @@
+.navigation-bar-container {
+    padding-right:100px;
+    background:#000000; /*#550000*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    width: 100;
+    border-top:10px;
+    border-color:White;
+}
+
+li a {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}

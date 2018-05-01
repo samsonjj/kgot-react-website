@@ -4,12 +4,17 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import BigPicture from '../bigPicture/bigPicture';
+import Pillars from '../pillars/pillars';
 
 export default class HomePage extends Component {
 	render() {
 		return (
 			<div className="HomePage">
-				This is the home page
+				<BigPicture />
+				<div>
+					<Pillars />
+				</div>
 			</div>
 		);
 	}

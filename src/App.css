@@ -22,12 +22,13 @@
   font-size: large;
 }
 
-.container {
+.container-thing {
+  padding-top: 95px;
   width:100%;
 }
 
 .content {
-  padding:150px;
+  padding:0px;
   background-color:White;
 }
 

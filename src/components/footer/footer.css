@@ -1,0 +1,43 @@
+.Footer {
+	border: 1px solid;
+	font-family: 'Tinos', futura-pt;
+	background: DarkRed;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .03em;
+  line-height: 1.9em;
+  text-transform: none;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  padding: 50px 50px;
+  text-align: center;
+
+}
+
+.footer-inner {
+		margin: auto;
+	  width: 250px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.footer-inner a {
+    margin: auto;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1em;
+    text-transform: none;
+    color: #fff;
+}
+
+.footer-logo {
+	margin: 50px;
+	width: 150px;
+}

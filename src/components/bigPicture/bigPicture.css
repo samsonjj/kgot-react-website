@@ -1,0 +1,48 @@
+.picture-container {
+	position: static;
+    text-align: center;
+    color: white;
+}
+
+.text-centered {
+    position: absolute;
+    z-index: 2000;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+}
+
+
+.text-centered .big {
+	margin: 0 0 0 0;
+	font-size: 6em;
+}
+
+.text-centered .small {
+	margin: 0 0 0 0;
+	font-size: 3em;
+}
+
+.crop {
+	overflow: hidden;
+	height: 800px;
+	width: 100%;
+}
+
+.big-image {
+	width: 100%;
+	margin-top: -300px;
+	margin-bottom: -500px;
+	-webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+}
+
+.shade {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

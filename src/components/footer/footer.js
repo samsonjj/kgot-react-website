@@ -18,7 +18,7 @@ export default class Footer extends Component {
 				<div>
 					<img className='footer-logo' src="vcu_logo.png"/>
 				</div>
-				<p>You can find the National Theta Tau website at <a href="www.thetatau.org">ThetaTau.org</a> </p>
+				<p className="footer-link">You can find the National Theta Tau website at <a href="www.thetatau.org">ThetaTau.org</a> </p>
 			</div>
 		);
 	}

@@ -1,6 +1,7 @@
 .Banner
 {
-	border: 1px solid;
+	border-bottom: 1px solid;
+	margin: 0px;
 	background:#ffd700;
 	background:DarkRed;
 	padding:3px;

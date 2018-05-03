@@ -11,6 +11,7 @@ import Header2 from './components/header2/header';
 import HomePage from './components/pages/homePage';
 import AboutPage from './components/pages/aboutPage';
 import Footer from './components/footer/footer';
+import BrotherPage from './components/pages/brotherPage';
 
 // css
 import './App.css';
@@ -28,6 +29,7 @@ class App extends Component {
           <div className='content'>
             <Route exact path='/' component={HomePage} />
             <Route path='/about' component={AboutPage} />
+            <Route path='/brothers' component={BrotherPage} />
           </div>
 
           <Footer />

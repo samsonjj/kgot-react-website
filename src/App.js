@@ -5,13 +5,12 @@ import {
   Link
 } from 'react-router-dom';
 
-import logo from './logo.svg';
 import Header from './components/header/header';
-import Header2 from './components/header2/header';
-import HomePage from './components/pages/homePage';
-import AboutPage from './components/pages/aboutPage';
 import Footer from './components/footer/footer';
-import BrotherPage from './components/pages/brotherPage';
+
+import HomePage from './pages/homePage/homePage';
+import AboutPage from './pages/aboutPage/aboutPage';
+import BrotherPage from './pages/brotherPage/brotherPage';
 
 // css
 import './App.css';
@@ -25,7 +24,7 @@ class App extends Component {
     return (
       <Router className="App">
         <div className='container-thing'>
-          <Header2 />
+          <Header />
           <div className='content'>
             <Route exact path='/' component={HomePage} />
             <Route path='/about' component={AboutPage} />

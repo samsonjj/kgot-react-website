@@ -9,7 +9,7 @@ export default class BrotherPage extends Component {
 		let b = rollNumbers.map((rollNumber) => {
 			return (
 				<span className='brother-image-container'>
-					<img className='brother-image' src={"./" + rollNumber + ".jpg"} />
+					<img className='brother-image' src={"./images/brotherImages/" + rollNumber + ".jpg"} />
 				</span>
 			);
 		});

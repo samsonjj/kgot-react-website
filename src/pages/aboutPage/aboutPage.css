@@ -1,0 +1,8 @@
+.aboutPage {
+	padding: 50px;
+}
+
+.aboutPage p {
+	text-align: justify;
+	line-height: 25px;
+}

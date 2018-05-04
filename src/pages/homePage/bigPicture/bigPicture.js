@@ -11,7 +11,7 @@ export default class BigPicture extends Component {
 		return (
 			<div className="picture-container">
 				<div className="crop">
-					<img className="big-image" src="./vcu_overhead.jpg" alt="vcu" />
+					<img className="big-image" src="./images/vcu_overhead.jpg" alt="vcu" />
 				</div>
 				<div className="text-centered">
 					<p className="big">THETA TAU</p>

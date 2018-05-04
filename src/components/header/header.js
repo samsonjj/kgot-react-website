@@ -8,7 +8,6 @@ export default class Header extends Component {
 
 		<div className="Header" background-color="White">
 			<Banner />
-			<NavigationBar />
 		</div>
 
 		);

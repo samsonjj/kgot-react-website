@@ -11,12 +11,15 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<div className="Footer">
-				<div className="footer-inner">
-					<Link to="/about">About</Link>
-					<Link to="/contact">Contact</Link>
+				<div id="footer-local">
+					<img className='footer-logo' src="./images/vcu_logo.png"/>
+					<div className='text'>
+						<div>Contact our regent at kgot.regent@gmail.com</div>
+						<div>or our scribe at kgot.scribe@gmail.com</div>
+					</div>
 				</div>
 				<div>
-					<img className='footer-logo' src="vcu_logo.png"/>
+
 				</div>
 				<p className="footer-link">You can find the National Theta Tau website at <a href="www.thetatau.org">ThetaTau.org</a> </p>
 			</div>

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import aboutPageCss from './aboutPage.css';
 
 export default class AboutPage extends Component {
 	render() {
 		return (
-			<div id="content">
+			<div className="aboutPage">
 				<h1 class="dark-text" align="center">About Us</h1>
 				<p class="dark-text" align="left">Theta Tau is a co-ed professional engineering fraternity. The purpose of Theta Tau is to develop and maintain a high standard of professional interest among its members, and to unite them in a strong bond of fraternal fellowship. Nationally, our fraternity was founded at the University of Minnesota on October 15, 1904.  Since then, we have grown to over sixty active chapters nationwide with ten active colonies.  We are the oldest and largests engineering fraternity in the country, having initiated over 30,000 members since 1904.  Our alumni have gone on to be business owners, astronauts, US Senators, and very successful engineers.</p>
 

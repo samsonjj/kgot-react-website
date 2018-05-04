@@ -1,52 +1,43 @@
 .Banner
 {
-	//background:#ffd700;
+	box-sizing: border-box;
+	border-bottom: 1px solid;
 	background:DarkRed;
-	padding:3px;
-	font-family: 'Roboto', sans-serif, Times New Roman, Helvetica, sans;
-}
-#banner {
-	
-}
-#banner_td
-{
-	text-align:center;
-	background-color:#8B0000;
-	border-radius:15px;
-	vertical-align: top;
-}
-#banner_table
-{
-	border-radius:15px;
-	background:#8B0000;
+	font-family: 'Tinos', 'Roboto', sans-serif, Times New Roman, Helvetica, sans;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 4000;
 }
 
-.banner-text {
-	margin-left:40px;
+.title {
+	margin-left: 50px;
+	float: left;
+	width: 300px;
+	color: white;
+}
+
+.title .text {
+	margin-top: 10px;
 }
 
 .big_heading
 {
-	font-size:64pt;
-	color: White;
+	font-size:25pt;
 	padding:0px;
 	margin:0px;
 }
 
 .small_heading
 {
-	color: White;
 	padding:0px;
 	margin:0px;
-	font-size:14pt;
+	font-size:20pt;
 }
 
 .logo {
-	margin:10px;
-}
-
-.one_by_one
-{
-	height:1px;
-	width:1px;
+	margin: 10px;
+	height: 70px;
+	float: left;
 }

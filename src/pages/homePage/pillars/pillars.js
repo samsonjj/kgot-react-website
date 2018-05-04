@@ -11,7 +11,7 @@ export default class Pillars extends Component {
 			<div className="pillar left-most">
 				<div>
 				<div className="image-container">
-					<img className="pillar-picture" src="service.jpg"/>
+					<img className="pillar-picture" src="./images/service.jpg"/>
 				</div>
 				<p>Service</p>
 				<p>This is a paragraph about professionalism</p>
@@ -20,7 +20,7 @@ export default class Pillars extends Component {
 			<div className="pillar">
 				<div>
 				<div className="image-container">
-					<img className="pillar-picture" src="professionalism.jpg"/>
+					<img className="pillar-picture" src="./images/professionalism.jpg"/>
 				</div>
 				<p>Professionalism</p>
 				<p>This is a paragraph about professionalism</p>
@@ -29,7 +29,7 @@ export default class Pillars extends Component {
 			<div className="pillar">
 				<div>
 				<div className="image-container">
-					<img className="pillar-picture" src="paintball.jpg"/>
+					<img className="pillar-picture" src="./images/paintball.jpg"/>
 				</div>
 				<p>Brotherhood</p>
 				<p>This is a paragraph about professionalism</p>
